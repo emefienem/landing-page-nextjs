@@ -14,8 +14,8 @@ function Rates() {
         </h2>
         <p className="max-w-[600px] w-fit mx-auto mt-3 text-xm">
           Maximize your profits and minimize costs as you navigate the crypto.
-          Join us and take control of your trades with fees that won't weigh you
-          down.
+          Join us and take control of your trades with fees that won&apos;t
+          weigh you down.
         </p>
         <div className="flex mt-10 justify-center py-1 mb-8">
           <button className="text-[#B982FF] px-2">Learn More</button>

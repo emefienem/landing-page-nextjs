@@ -62,7 +62,7 @@ function Features() {
           <span className="text-[#898CA9]">
             Stay connected with real-time updates and insights through Swifty,
             keeping you informed in the dynamic world of crypto as well as
-            today's rates and more.
+            today&apos;s rates and more.
           </span>
         </div>
       </div>
@@ -75,8 +75,8 @@ function Features() {
           <p className="mt-4 mb-5 px-8 md:px-0 text-xs md:text-base">
             Start your free trial now and unlock a world of unlimited
             transactions, intelligent features, and seamless exchanges. Join us
-            on the path to smarter, more profitable trading. Let's make every
-            trade count
+            on the path to smarter, more profitable trading. Let&apos;s make
+            every trade count
           </p>
           <button className="bg-[#5C3ED4] px-10 py-3 rounded-xl ">
             Get started
