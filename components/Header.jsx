@@ -69,13 +69,7 @@ function Header() {
         <li onClick={toggleMenu}>
           <FontAwesomeIcon
             icon={faClose}
-            className="block md:hidden"
-            style={{
-              background: "whitesmoke",
-              color: "#000",
-              padding: "10px",
-              borderRadius: "5px",
-            }}
+            className="block md:hidden bg-[#fff] text-[#000] p-3"
           />
         </li>
       </ul>
