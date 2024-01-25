@@ -29,8 +29,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex gap-10 px-12 py-5 md:px-0 md:py-0">
-        <div className="max-w-[500px] pr-28 text-center md:text-start">
+      <div className="flex gap-10 px-10 py-5 md:px-0 md:py-0">
+        <div className="max-w-[500px] pr-32 text-center md:text-start">
           <p>
             Swiftyex Box is your trusted partner in the world of currency
             trading we redefine the way you exchange money, making it is simple
