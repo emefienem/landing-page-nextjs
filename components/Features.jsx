@@ -84,7 +84,7 @@ function Features() {
         </div>
 
         <div className="mx-24 md:mx-auto mt-8 md:mt-0">
-          <Image src="/robot.png" width={349} height={524} alt="Swifty Robot" />
+          <Image src="/robot.png" width={349} height={600} alt="Swifty Robot" />
         </div>
       </div>
     </section>
