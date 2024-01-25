@@ -13,7 +13,7 @@ function Features() {
   return (
     <section
       ref={featureRef}
-      className="py-10 px-10 mb-10 md:px-32 text-center text-white"
+      className="py-10 px-5 mb-10 md:px-32 text-center text-white"
     >
       <div>
         <span className="text-[#8470FF]">Top Features</span>
@@ -86,10 +86,10 @@ function Features() {
         <div className="mx-24 md:mx-auto mt-8 md:mt-0">
           <Image
             src="/robot.png"
-            width={349}
-            height={600}
+            width={187}
+            height={287}
             alt="Swifty Robot"
-            className="h-fit"
+            className="max-w-[600px]"
           />
         </div>
       </div>

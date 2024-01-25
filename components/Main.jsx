@@ -6,7 +6,7 @@ function Main() {
   return (
     <section
       ref={featureRef}
-      className="bg-[url('/upp.png')] bg-no-repeat bg-cover bg-scroll h-full flex items-center justify-center text-white pt-8 md:pt-20 text-center pb-[500px] md:pb-[1096px] px-5 md:px-32 md:bg-center flex-col"
+      className="bg-[url('/upp.png')] bg-no-repeat bg-cover bg-scroll h-full flex items-center justify-center text-white pt-20 md:pt-32 text-center pb-[500px] md:pb-[1096px] px-5 md:px-32 md:bg-center flex-col"
     >
       <h1 className="text-4xl md:text-6xl z-20 relative">
         Step into the future of crypto trading with{" "}
