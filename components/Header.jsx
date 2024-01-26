@@ -47,20 +47,21 @@ function Header() {
       <div className="block md:hidden" onClick={toggleMenu}>
         <FontAwesomeIcon
           icon={faBars}
-          className=" bg-[#583acf] p-2 rounded absolute top-4 right-3 text-white"
+          className=" bg-[#583acf] p-2 rounded absolute top-5 right-3 text-white"
         />
       </div>
 
       <ul
-        className={`flex flex-col uppercase fixed top-0 left-0 w-full h-screen bg-[#fff] justify-between items-center text-[#000] ${
-          menu ? "top-0" : "top-full"
-        } md:list-none md:flex-row md:space-x-6 md:pr-11 md:text-[#fff]  md:py-0 md:h-auto md:relative md:justify-end md:bg-transparent md:opacity-100 cursor-pointer`}
+        className={`flex flex-col uppercase fixed top-0 right-0 w-52 h-[90vh]  bg-purple-50 justify-start items-start md:justify-between text-[#000] transition-all pt-20 pl-2 pb-0 pr-0 md:pl-0  ${
+          menu ? "right-0" : "right-[400px]"
+        } md:list-none md:flex-row md:space-x-6 md:pr-11 md:text-[#fff]  md:py-0 md:h-auto md:relative md:justify-end md:bg-transparent cursor-pointer`}
       >
         <li
           onClick={() => {
             scrollToSection(homeRef);
             toggleMenu();
           }}
+          className="mb-10 md:mb-0"
         >
           Home
         </li>
@@ -69,6 +70,7 @@ function Header() {
             scrollToSection(featureRef);
             toggleMenu();
           }}
+          className="mb-10 md:mb-0"
         >
           Features
         </li>
@@ -77,6 +79,7 @@ function Header() {
             scrollToSection(rateRef);
             toggleMenu();
           }}
+          className="mb-10 md:mb-0"
         >
           Rates
         </li>
@@ -85,13 +88,14 @@ function Header() {
             scrollToSection(telegramRef);
             toggleMenu();
           }}
+          className="mb-10 md:mb-0"
         >
           Telegram
         </li>
         <li onClick={toggleMenu}>
           <FontAwesomeIcon
             icon={faClose}
-            className="block md:hidden bg-[#fff] text-[#000] p-3 border-[#000]"
+            className="block absolute md:hidden top-2 left-[10px] bg-[#fff] text-[#000] p-3 border-[#000] rounded-2xl"
           />
         </li>
       </ul>
