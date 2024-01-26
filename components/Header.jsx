@@ -52,7 +52,7 @@ function Header() {
       </div>
 
       <ul
-        className={`flex flex-col uppercase fixed top-0 right-0 w-52 h-[90vh]  bg-purple-50 justify-start items-start md:justify-between text-[#000] transition-all pt-20 pl-2 pb-0 pr-0 md:pl-0  ${
+        className={`flex flex-col uppercase fixed top-0 right-0 w-52 h-[90vh] bg-purple-50 justify-start items-start md:justify-between text-[#000] transition-all pt-20 pl-2 pb-0 pr-0 md:pl-0  ${
           menu ? "right-0" : "right-[400px]"
         } md:list-none md:flex-row md:space-x-6 md:pr-11 md:text-[#fff]  md:py-0 md:h-auto md:relative md:justify-end md:bg-transparent cursor-pointer`}
       >
